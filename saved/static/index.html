@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-logo">NewsSite</div>
+        <ul class="nav-links">
+            <li><a href="#cybermap">CyberMap</a></li>
+            <li><a href="#visualization">Visualization</a></li>
+            <li><a href="#report">Report</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#news">News</a></li>
+        </ul>
+    </nav>
+
+    <!-- News Feed Section -->
+    <div id="news-feed">
+        <h1>Latest News</h1>
+        <div id="news-container"></div>
+        <div id="loading">Loading...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
