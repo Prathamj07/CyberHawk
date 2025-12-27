@@ -1,7 +1,7 @@
 import json
 import requests
 
-API_KEY = "AIzaSyDPBwkW4DNQBHmpP9GSbhpeAow5O2INGpI"  # Replace with your Gemini API Key
+API_KEY = "API_KEY"  # Replace with your Gemini API Key
 API_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
 
 HEADERS = {
@@ -56,3 +56,4 @@ with open(output_file_path, "w") as file:
     json.dump(validated_news, file, indent=4)
 
 print(f"Filtered cybersecurity news has been saved to '{output_file_path}'.")
+
